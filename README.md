@@ -59,3 +59,8 @@ The ```create_tables.py``` and ```etl.py``` file have to be run independently as
 python create_tables.py 
 python etl.py 
 ```
+
+## Reference: 
+[Psycopg](http://initd.org/psycopg/docs/)
+[PostgreSQL Documentation](https://www.postgresql.org/docs/)
+[Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
