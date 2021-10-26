@@ -33,12 +33,16 @@ Example of what the data in a log file looks like:
 
 **users**: users in the app
 ```user_id, first_name, last_name, gender, level```
+
 **songs**: songs in music database
 ```song_id, title, artist_id, year, duration```
+
 **artists**: artists in music database
 ```artist_id, name, location, latitude, longitude```
+
 **time**: timestamps of records in songplays broken down into specific units
 ```start_time, hour, day, week, month, year, weekday```
+
 
 ## Project Files
 
@@ -59,3 +63,11 @@ The ```create_tables.py``` and ```etl.py``` file have to be run independently as
 python create_tables.py 
 python etl.py 
 ```
+
+## Reference: 
+[Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
+
+[PostgreSQL Documentation](https://www.postgresql.org/docs/)
+
+[Psycopg](http://initd.org/psycopg/docs/)
+
